@@ -1,8 +1,3 @@
-//====================================================
-//PROGRAMA: OPERACIONES BASICAS
-// AUTO : STALIN FRANCIS
-// VESION: 1.02
-//==================================================
 #include<iostream>
 #include<stdlib.h>
 using namespace std;
@@ -26,7 +21,7 @@ cout<<"\n";
 
 }
 
-//FUCION PRINCIPAL
+//FUNCION PRINCIPAL
 int main()
 {
 	int op,flag;
@@ -40,44 +35,72 @@ int main()
 	cout<<"4.- Mostrar la transpuesta de la primera matriz \n";
 	cout<<"5.- Calcular la media y varianza y compararlas \n";
 	cout<<"0.- Salir del menu \n";
-        cout<<" Ingrese una opción : "; cin>>op;
-	switch(op){
+        cout<<" Ingrese una opción : ";
+		cin>>op;
+		system (" ");
+		
+	switch(op)
+	{
 		case 1:
-	cout<<"ESTA FUNCION PERMITE INGRESAR EL VALOR A LAS MATRICES";
+			
+	//ESTA FUNCION PERMITE INGRESAR EL VALOR A LAS MATRICES.
+	
 		ingresar(matriz1,matriz2);
-		mostrar(matriz1);
-		mostrar(matriz2);
+		system("PAUSE");
+		system("PAUSE");
 		break;
+		
 	        case 2:
+	        	
 	// ESTA FUNCION PERMITE CALCULAR EL PRODUCTO ENTRE DOS MATRICES.
+	
 		producto(matriz1,matriz2,resultado);
-		mostrar(resultado);
+		system("PAUSE");
 		break;
+		
 		case 3:
+			
 	// ESTA FUNCION PERMITE OBTENER LA POTENCIA 2 DE UNA MATRIZ.
-		potencia(matriz1,2,resultado);
-		mostrar(resultado);
+	
+		potencia(matriz1,resultado);
+		system("PAUSE");
 		break;
+		
 		case 4:
-	// ESTA FUNCION CALCULA LA TRANSPUEST DE LA PRIMERA MATRIZ
+			
+	// ESTA FUNCION CALCULA LA TRANSPUEST DE LA PRIMERA MATRIZ.
+	
 		transpuesta(matriz1,resultado);
-		mostrar(resultado);
+		system("PAUSE");
 		break;
+		
 		case 5:
-	//CUADO CALCULA Y MUESTRA LAS MADIA Y VARIANZA DE LAS DOS MATRICES
+			
+	//CALCULA Y MUESTRA LA MEDIA Y VARIANZA DE LAS DOS MATRICES.
+	
 		mediayvarianza(matriz1,matriz2);
+		system("PAUSE");
 		break;
+		
 		}
-		  if(op!=0){
-			    cout << "Opcion no permitida !\n" <<  "Press Enter to continue\n";
+		if(op>5)
+		{
+		cout << "Opcion no permitida !\n" <<  "Press Enter to continue\n";
+			    
     // pause the program until user input
-	           flag=cin.ignore().get();
-		  }		  
-	if(op==0){
-	cout<<"Salimos del Sistema: "<<endl;
+    
+	    flag=cin.ignore().get();
+		}		  
+	    if(op==0)
+	{
+		
+	    cout<<"Salimos del Sistema: "<<endl;
 
 	}
-	}while(op!=0);
+	system("PAUSE"); 
+	}
+	
+	while(op!=0);
 
 	return(0);
 
