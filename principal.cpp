@@ -1,11 +1,7 @@
 #include<iostream>
 #include<stdlib.h>
 using namespace std;
-#include "colaborador1.h"     // EN ESTE ARCHIVO VA LA FUNCION DE imprimir()
-#include "colaborador2.h"     // EN ESTE ARCHIVO VA LA FUNCION DE sumar()
-#include "colaborador3.h"     // EN ESTE ARCHIVO VA LA FUNCION DE restar()
-#include "colaborador4.h"     // EN ESTE ARCHIVO VA LA FUNCION DE dividir()
-#include "colaborador5.h"     // EN ESTE ARCHIVO VA LA FUNCION DE multipicar()
+
 
 void mostrar(float (*r)[5])
 {
