@@ -1,4 +1,5 @@
 //Fernando Cajiao Casierra
+
 void transpuesta(float (*m1)[5], float (*r)[5])
 {
 
