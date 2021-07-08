@@ -1,5 +1,5 @@
 //Diana Espinal Marin
-//A MI ME TOCO SACAR LA POTENCIA DE LAS MATRICES
+// POTENCIA DE LAS MATRICES
 	
 	void potencia(float (*m1)[5], int p, float (*r)[5])
 {
