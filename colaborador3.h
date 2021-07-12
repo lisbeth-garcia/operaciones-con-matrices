@@ -1,4 +1,4 @@
-//Diana Espinal Marin
+//Diana Espinal Marin 
 
 // POTENCIA DE LAS MATRICES
 	
