@@ -1,4 +1,4 @@
-// Pierina Mejía Hurtado
+ // Pierina Mejía Hurtado
 
 void producto(float (*m1)[5], float (*m2)[5],float (*r)[5])
 {
