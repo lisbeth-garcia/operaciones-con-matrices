@@ -1,3 +1,4 @@
+// Carlos Mero Albán 
 void mediayvarianza(float (*m1)[5], float (*m2)[5])
 {
 cout<<endl;
