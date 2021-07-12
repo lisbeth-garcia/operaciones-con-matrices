@@ -1,4 +1,4 @@
-//garcia lopez lisbeth 
+//garcia lopez  lisbeth 
 #include<iostream>
 #include<stdlib.h>
 
