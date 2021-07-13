@@ -1,22 +1,25 @@
-//Fernando Cajiao Casierra 
-void transpuesta(float (*m1)[5], float (*r)[5])
-{
+ transpuesta vacia ( float (* m1) [5], float (* r) [5])
 
-cout<<"Obtener la transpuesta de una matriz";
-cout<<"\nElementos de la matriz1 original : \n";
-for(int i=0;i<5;i++){
-	for(int j=0;j<5;j++){
-	      cout<<m1[i][j]<<" ";
-	}
-cout<<"\n";
-	}
-cout<<endl<<endl;
-cout<<"\nElementos de la matriz1 Transpuesta : \n";
-for(int i=0;i<5;i++){
-	for(int j=0;j<5;j++){
-		r[j][i]=m1[j][i];
-	      cout<<r[j][i]<<" ";
-	}
-cout<<"\n";
-	}
+//========================================================
+//COLABORADOR 4
+//Fernando Cajiao Casierra 
+//A MI ME TOCO CALCULAR LA TRANSPUESTA DE LAS  MATRICES 
+  
+//AQUI SE VA A CALCULAR LA TRANSPUESTA DE LA MATRIZ 1 
+  
+cout<<"\nLA PRIMERA MATRIZ, QUEDARIA ASI:\n";
+  
+for(int a=0;a<2;a++)
+{  
+    for(int b=0;b<2;b++)
+    {
+    cout<<matriz1[b][a]<<" ";
+    }
+    
+    cout<<"\n";    
 }
+
+   break;
+
+ case 5:
+//========================================================
