@@ -1,44 +1,43 @@
- // Pierina Mejía Hurtado
-
-void producto(float (*m1)[5], float (*m2)[5],float (*r)[5])
+void producto(float (*m1)[5], float (*m2)[5], float (*r)[5])
 {
-int filas=5,columnas=5;
-cout<<"PRODUCTO DE LAS MATRICES\n\n";
 
-	for(int i=0;i<filas;i++){
-		for(int j=0;j<columnas;j++){
-		for(int k=0;k<columnas;k++){
-				r[i][j]+=m1[i][k]*m2[k][j];
-			
+// en esta parte se podra sacar el producto de las matrices//
+  
+  //PARTICIPANTE2 
+	//Pierina Mejia Hurtado
+	//EN ESTA PARTE PODREMOS SACAR EL PRODUCTO DE LAS MATRICES.
+    cout<<"\nESTA FUNCION PERMITE CALCULAR EL PRODUCTO ENTRE DOS MATRICES\n";
+    
+	 for (int a=0;a<2;a++)
+    {
+	
+	for (int b=0;b<2;b++)
+       { 
+	    matrizresultado[a][b]=0;
+         
+		 for (int k=0;k<2;k++)
+          {
+		  matrizresultado[a][b]=matrizresultado[a][b]+matriz1[a][k]*matriz2[k][b];
+          }
+       }
+    }
+    
+	cout<<"\nEL PRODUCTO DE LAS MATRICES ES:\n";
+	
+	for(int a=0;a<2;a++)
+	{
+		for(int b=0;b<2;b++)
+		{
+			cout<<matrizresultado[a][b]<<" ";
+		}
+		cout<<"\n";
+	}
+	
+		break;
 		
-		}
-	} 
-}
-		cout<<"\nMostrando matriz #1\n\n";
-	
-	for(int i=0;i<filas;i++){
-		for(int j=0;j<columnas;j++){
-			cout<<m1[j][i]<<"  ";
-		}
-		cout<<"\n\n";
-	}
-	cout<<"\nMostrando matriz #2\n\n";
-	
-	for(int i=0;i<filas;i++){
-		for(int j=0;j<columnas;j++){
-			cout<<m2[j][i]<<"  ";
-		}
-		cout<<"\n\n";
-	}
-	cout<<"El producto de las dos matrices es:\n";
-	
-	for(int i=0;i<filas;i++){
-		for(int j=0;j<columnas;j++){
-			
-			cout<<r[j][i]<<"  ";
-		}
-		cout<<"\n\n";
-	}
+		case 3:
+//====================================================
+
 
 
 }
