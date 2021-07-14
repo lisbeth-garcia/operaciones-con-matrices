@@ -1,11 +1,3 @@
-//garcia lopez lisbeth 
-#include<iostream>
-#include<stdlib.h>
-
-using namespace std;
-
-int main()
-	
 	void ingresar(float (*m1)[5], float (*m2)[5])
 {
 
